@@ -1,0 +1,16 @@
+Jane Tester
+Frontend developer and support specialist
+
+Experience
+
+WordPress developer, Freelance (2022 - 2025)
+- Built and maintained WordPress and WooCommerce sites for six clients.
+- Wrote custom PHP for theme changes and fixed plugin conflicts.
+
+Support specialist, HostCo (2020 - 2022)
+- Answered 40 support tickets a day about DNS, SSL and email setup.
+- Wrote 30 help center articles.
+
+Skills
+
+PHP, JavaScript, Next.js, React, MySQL.

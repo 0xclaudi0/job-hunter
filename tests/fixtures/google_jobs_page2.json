@@ -1,0 +1,23 @@
+{
+  "search_metadata": {"id": "fixture-page-2", "status": "Success"},
+  "jobs_results": [
+    {
+      "title": "Technical Support Engineer (Remote)",
+      "company_name": "HostPro",
+      "location": "Anywhere",
+      "via": "Himalayas",
+      "description": "Help customers fix WordPress hosting problems: DNS, SSL, email and plugin conflicts. Write help articles.",
+      "detected_extensions": {"posted_at": "5 hours ago", "schedule_type": "Full-time", "work_from_home": true, "salary": "40K–55K a year"},
+      "apply_options": [{"title": "Himalayas", "link": "https://example.com/apply/hostpro"}],
+      "job_id": "fixture-job-hostpro"
+    },
+    {
+      "title": "wordpress developer",
+      "company_name": "Acme Web Studio Inc",
+      "location": "Anywhere",
+      "via": "Indeed",
+      "description": "Duplicate of the Acme post on another job board.",
+      "job_id": "fixture-job-acme-dup"
+    }
+  ]
+}

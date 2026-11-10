@@ -1,0 +1,48 @@
+# Copy this file to config.toml and edit it. config.toml is git-ignored.
+
+# Your resume. Supported: .pdf, .txt, .md
+resume_path = "~/Desktop/resume.pdf"
+
+# SQLite file for the SerpApi cache, jobs, analyses and feedback.
+db_path = "jobs.db"
+
+# Folder for run reports and cover letter drafts.
+output_dir = "output"
+
+[search]
+# One SerpApi Google Jobs search for each query (and each page).
+queries = [
+  "WordPress developer",
+  "technical support engineer",
+  "customer success engineer",
+]
+# Optional. Leave empty to let Google pick. Example: "United Kingdom"
+location = ""
+# Adds ltype=1 (work from home) to each search.
+remote_only = true
+# Each page is one SerpApi search (about 10 jobs).
+max_pages = 1
+# A repeated search inside this window comes from the local cache and costs nothing.
+cache_ttl_hours = 20
+
+[filter]
+# Skip jobs whose title contains any of these words (case does not matter).
+exclude_title_words = ["sales", "account executive"]
+# Forget jobs that no search returned in this many days.
+max_age_days = 14
+
+[rank]
+# How many BM25-ranked jobs go to Claude for analysis.
+top_n = 10
+# How many resume chunks Claude gets as evidence for each job.
+evidence_chunks = 4
+
+[claude]
+model = "claude-opus-5-5"
+# low | medium | high | xhigh | max
+effort = "medium"
+
+[candidate]
+name = "Your Name"
+# Facts Claude must respect, for example where you can work.
+notes = "Remote worldwide roles only. Not authorized to work in the US."

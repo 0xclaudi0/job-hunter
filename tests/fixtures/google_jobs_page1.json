@@ -1,0 +1,44 @@
+{
+  "search_metadata": {"id": "fixture-page-1", "status": "Success"},
+  "search_parameters": {"engine": "google_jobs", "q": "WordPress developer"},
+  "jobs_results": [
+    {
+      "title": "WordPress Developer",
+      "company_name": "Acme Web Studio Inc.",
+      "location": "Anywhere",
+      "via": "LinkedIn",
+      "description": "We build WordPress and WooCommerce sites for small businesses. You will build custom themes, maintain plugins, fix PHP issues and support clients by email.",
+      "job_highlights": [
+        {"title": "Qualifications", "items": ["2+ years with WordPress and WooCommerce", "PHP, HTML, CSS", "Good written English"]},
+        {"title": "Responsibilities", "items": ["Build and maintain client sites", "Answer client support tickets"]}
+      ],
+      "detected_extensions": {"posted_at": "2 days ago", "schedule_type": "Full-time", "work_from_home": true},
+      "apply_options": [{"title": "LinkedIn", "link": "https://example.com/apply/acme"}],
+      "job_id": "fixture-job-acme"
+    },
+    {
+      "title": "Registered Nurse",
+      "company_name": "City Hospital",
+      "location": "Austin, TX",
+      "via": "Indeed",
+      "description": "Provide patient care on the night shift. Must hold a Texas nursing license.",
+      "detected_extensions": {"posted_at": "1 day ago", "schedule_type": "Full-time"},
+      "job_id": "fixture-job-nurse"
+    },
+    {
+      "title": "Sales Development Representative",
+      "company_name": "SaaSCo",
+      "location": "Anywhere",
+      "via": "Wellfound",
+      "description": "Book meetings with WordPress agencies. Cold calls and email outreach.",
+      "detected_extensions": {"posted_at": "3 days ago", "work_from_home": true},
+      "job_id": "fixture-job-sales"
+    },
+    {
+      "company_name": "No Title Ltd",
+      "description": "A broken record with no title.",
+      "job_id": "fixture-job-broken"
+    }
+  ],
+  "serpapi_pagination": {"next_page_token": "TOKEN_PAGE_2"}
+}
