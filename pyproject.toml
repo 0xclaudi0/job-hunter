@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "serpapi-job-match"
+name = "job-hunter"
 version = "0.1.0"
 description = "Find remote jobs with SerpApi Google Jobs, rank them against a resume, and explain each match with Claude."
 requires-python = ">=3.11"

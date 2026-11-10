@@ -1,4 +1,4 @@
-# serpapi-job-match
+# job-hunter
 
 This tool finds remote jobs with the SerpApi Google Jobs API. It ranks the jobs against your resume and uses Claude to explain each match. Each claim in the explanation cites a part of your resume. The tool can also write a cover letter draft for a job.
 

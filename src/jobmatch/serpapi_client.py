@@ -26,7 +26,7 @@ class SerpApiError(RuntimeError):
 
 def urllib_get(url: str) -> tuple[int, dict]:
     """GET a URL and return (status, parsed JSON). SerpApi sends JSON on errors too."""
-    request = urllib.request.Request(url, headers={"User-Agent": "serpapi-job-match/0.1"})
+    request = urllib.request.Request(url, headers={"User-Agent": "job-hunter/0.1"})
     try:
         with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT_SECONDS) as resp:
             return resp.status, json.loads(resp.read())
